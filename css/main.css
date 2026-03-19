@@ -24,8 +24,8 @@ img {
     overflow-x: hidden;
 }
 .container {
-    width: 1300px;
-    width: 92%;
+    width: 1200px;
+    width: 90%;
     margin: 0 auto;
 }
 .logo-block {
@@ -96,8 +96,9 @@ header nav ul li.btn a:hover, .email .block button:hover {
     z-index: 1;
 }
 .hero--info {
-    width: 461px;
-    padding-top: 70px;
+    width: 50%;
+    max-width: 550px; 
+    text-align: left;
 }
 .hero--info h1 {
     font-size: 64px;
@@ -461,6 +462,10 @@ footer > p {
     }
 }
 @media (max-width: 768px) {
+    .hero--info, .hero-about .info, .banner-info, .big-text, .feedback form {
+    width: 100% !important; 
+    max-width: 100%;
+    }
     header {
         flex-direction: column;
         gap: 20px;
@@ -527,7 +532,4 @@ footer > p {
 .card-footer button.btn-small:hover {
     background-color:#4e45ec
 }
-.hero--info, .hero-about .info, .banner-info, .big-text, .feedback form {
-    width: 100% !important; 
-    max-width: 100%;
-}
+
