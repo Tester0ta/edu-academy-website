@@ -25,7 +25,7 @@ img {
 }
 .container {
     width: 1300px;
-    width: 90%;
+    width: 92%;
     margin: 0 auto;
 }
 .logo-block {
@@ -413,43 +413,73 @@ footer > p {
 .feedback form button:hover {
     background: #4e45ec;
 }
-@media (max-width: 1024px) {
-    .hero img {
+@media (max-width: 1100px) {
+    .hero-about img {
         position: static;
         display: block;
-        margin: 0 auto;
         width: 80%;
+        margin: 20px auto;
     }
-    .hero--info {
-        width: 100%;
+    .hero-about .info {
+        padding: 50px 0;
         text-align: center;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     header {
         flex-direction: column;
         gap: 20px;
+        padding: 30px 0;
     }
-    header nav ul {
+    header .logo { font-size: 40px; }
+    .courses-grid {
+        gap: 30px;
+        margin-top: 50px;
+    }
+    .work .blocks {
         flex-direction: column;
-        align-items: center;
-        gap: 15px;
+        gap: 20px;
     }
-    header .logo {
-        font-size: 40px;
+    .work .blocks .block {
+        width: 100%;
+        box-sizing: border-box;
     }
-    .hero--info h1 {
-        font-size: 32px;
+}
+@media (max-width: 768px) {
+    body { font-size: 18px; } 
+    .hero--info h1 { font-size: 36px; }
+    .hero-contacts img {
+        width: 100%;
+        margin: 40px 0;
     }
-    .email .block {
+    
+    .feedback form .inline {
         flex-direction: column;
-        text-align: center;
+    }
+    .feedback form .inline > div {
+        width: 100%;
+    }
+    .feedback form input, .feedback form textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .feedback form button {
+        width: 100%;
+        float: none;
+    }
+    .email .block div:last-child {
+        width: 100%;
     }
     .email .block input {
-        right: 0;
         width: 100%;
-        margin-bottom: 20px;
+        box-sizing: border-box;
     }
+    footer .blocks {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    footer .blocks p { width: 100%; }
 }
 .courses-grid {
     display: grid;
@@ -475,4 +505,7 @@ footer > p {
 .card-footer button.btn-small:hover {
     background-color:#4e45ec
 }
-
+.hero--info, .hero-about .info, .banner-info, .big-text, .feedback form {
+    width: 100% !important; 
+    max-width: 100%;
+}
