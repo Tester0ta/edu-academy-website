@@ -37,7 +37,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 header .logo {
     text-transform: uppercase;
@@ -89,6 +89,8 @@ header nav ul li.btn a:hover, .email .block button:hover {
     background: #4e45ec;
 }
 .hero {
+    padding: 50px 0;
+    min-height: 500px;
     padding-bottom: 100px;
     position: relative;
     z-index: 1;
@@ -459,75 +461,53 @@ footer > p {
     }
 }
 @media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+    header .logo {
+        font-size: 32px;
+    }
+    header nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
     .hero {
-        padding-bottom: 50px;
+        text-align: center;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .hero--info {
-        width: 100%;
-        text-align: center;
-        padding-top: 20px;
-        order: 1;
+        max-width: 100%;
+    }
+    .hero--info h1 {
+        font-size: 32px;
     }
     .hero img {
-        position: static;
-        display: block;
-        margin: 20px auto;
-        width: 90%;
-        order: 2;
+        position: static; 
+        max-width: 100%;
+        margin-top: 30px;
     }
     .hero--info .btn {
         font-size: 24px;
         padding: 15px 30px;
+        display: inline-block;
     }
-    body {
-        font-size: 18px;
-    } 
-    .hero--info h1 {
-        font-size: 28px;
-        line-height: 1.2;
-    }
-    .hero-contacts img {
-        width: 100%;
-        margin: 40px 0;
-    }
-    .feedback form .inline {
+    .work .blocks {
         flex-direction: column;
     }
-    .feedback form .inline > div {
-        width: 100%;
-    }
-    .feedback form input, .feedback form textarea {
-        width: 100%;
-        box-sizing: border-box;
-    }
-    .feedback form button {
-        width: 100%;
-        float: none;
-    }
-    .email .block div:last-child {
-        width: 100%;
-    }
-    .email .block input {
-        width: 100%;
-        box-sizing: border-box;
-    }
-    footer .blocks {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    footer .blocks p {
-        width: 100%;
+    
+    .work .blocks .block {
+        width: 100% !important;
     }
 }
 .courses-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 80px;
-    margin-top: 100px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 50px 0;
 }
 .course-card {
     background: #c8bbf7;
