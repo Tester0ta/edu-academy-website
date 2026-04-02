@@ -1,23 +1,30 @@
-# 🎓 EDU Academy – Game Development & Design Platform
+🎓 EDU Academy – Game Development & Design Platform
+A modern, multi-page responsive website designed for an IT academy specializing in game design, 3D modeling, and web development.
 
-Це адаптивний багатосторінковий веб-сайт для сучасної IT-академії, що спеціалізується на геймдизайні, 3D-моделюванні та веб-розробці.
+🚀 Live Demo
+You can view the project live here: https://tester0ta.github.io/edu-academy-website/
 
-## 🚀 Жива демо-версія
-Подивитися сайт можна тут: [https://tester0ta.github.io/edu-academy-website/](https://tester0ta.github.io/edu-academy-website/)
+🛠 Tech Stack
+This project was built using modern web development standards:
 
-## 🛠 Технології
-Проєкт реалізовано з використанням сучасних стандартів веб-розробки:
-* **HTML5** – семантична структура сторінок.
-* **CSS3** – стилізація, Flexbox та Grid для адаптивної верстки.
-* **SVG Graphics** – векторний логотип для ідеальної чіткості.
-* **Responsive Design** – сайт коректно відображається на комп'ютерах, планшетах та смартфонах.
+HTML5 – Semantic structure for better SEO and accessibility.
 
-## 📁 Структура проєкту
-Сайт складається з чотирьох основних розділів:
-1.  **Home (index.html)** – головна сторінка з описом місії академії.
-2.  **About Us (about.html)** – детальна інформація про платформу.
-3.  **Our Courses (courses.html)** – каталог курсів з інтерактивними картками.
-4.  **Contacts (contacts.html)** – форма зворотного зв'язку та контактні дані.
+CSS3 – Custom styling using Flexbox and Grid for a fluid layout.
 
-## 👨‍💻 Про розробника
-Це мій перший серйозний проєкт у портфоліо. Я зосередився на створенні чистого коду, зручної навігації та сучасного дизайну, що відповідає вимогам IT-індустрії.
+SVG Graphics – Vector logos and icons for pixel-perfect clarity.
+
+Responsive Web Design (RWD) – Fully optimized for desktops, tablets, and smartphones.
+
+📁 Project Structure
+The website features four main functional sections:
+
+Home (index.html) – Landing page showcasing the academy's mission and key highlights.
+
+About Us (about.html) – Detailed information about the platform and its values.
+
+Our Courses (courses.html) – A course catalog featuring interactive cards.
+
+Contacts (contacts.html) – A functional contact section with feedback forms and location details.
+
+👨‍💻 About the Developer
+This is my first major portfolio project. My primary focus was on writing clean, maintainable code, ensuring intuitive navigation, and implementing a modern UI/UX that meets current IT industry standards.
